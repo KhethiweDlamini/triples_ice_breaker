@@ -1,0 +1,31 @@
+<h2>Choose Your Vibe</h2>
+<button onclick="getQuestion('sweet')">Sweet</button>
+<button onclick="getQuestion('source')">Source</button>
+<button onclick="getQuestion('serious')">Serious</button>
+<p id="questionOutput"></p>
+
+<script>
+  const questions = {
+    sweet: [
+      "What’s the weirdest compliment you’ve ever received?",
+      "If you were a dessert, what would you be and why?",
+      "What’s your comfort movie or snack?"
+    ],
+    source: [
+      "What got you into coding?",
+      "What’s one keyboard shortcut you can’t live without?",
+      "If your code had a theme song, what would it be?"
+    ],
+    serious: [
+      "What’s one thing you wish more people knew about you?",
+      "What’s a goal you’re working toward this year?",
+      "What does a good day at work look like to you?"
+    ]
+  };
+
+  function getQuestion(type) {
+    const qSet = questions[type];
+    const randomIndex = Math.floor(Math.random() * qSet.length);
+    document.getElementById('questionOutput').innerText = qSet[randomIndex];
+  }
+</script>
