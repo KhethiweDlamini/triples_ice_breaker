@@ -13,4 +13,4 @@ Pick a vibe — 🍭 Sweet, 🫖 Spill, or 🧠 Still — and get a fun or thoug
 
 ## 🚀 Live Demo
 
-👉 [Play the game here]([https://khethiwedlamini.github.io/work_ice_breaker_game/])
+👉 [Play the game here](https://khethiwedlamini.github.io/work_ice_breaker_game/)
