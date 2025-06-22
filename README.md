@@ -1,0 +1,17 @@
+# 🎮 Triple S – Choose Your Vibe!
+
+Welcome to **Triple S** — a lighthearted icebreaker game that helps teams and friends connect.
+
+Pick a vibe — 🍭 Sweet, 🫖 Spill, or 🧠 Serious — and get a fun or thoughtful question to spark conversation!
+
+## ✨ Features
+
+- 🎲 Random question generator
+- 🌈 Clean, gamey UI with animations
+- 🔄 Reset button to clear and restart
+- ❔ Floating instructions button
+- 💻 Built with HTML, CSS, and JavaScript
+
+## 🚀 Live Demo
+
+👉 [Play the game here](https://your-username.github.io/vibe-triple-s/)
