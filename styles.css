@@ -27,14 +27,14 @@ body {
 
 h2 {
   font-size: 42px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   color: #2d3436;
 }
 
 .button-group {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 button {
