@@ -1,31 +1,34 @@
-<h2>Choose Your Vibe</h2>
-<button onclick="getQuestion('sweet')">Sweet</button>
-<button onclick="getQuestion('source')">Source</button>
-<button onclick="getQuestion('serious')">Serious</button>
-<p id="questionOutput"></p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Choose Your Vibe</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="instructions-wrapper">
+  <button id="infoBtn">❔</button>
+  <div id="instructionsBox" class="hidden">
+    <h4>How to Play</h4>
+    <p>Choose a vibe and get a random question.</p>
+    <p>🍭 Sweet: Light and fun<br>🫖 Spill: Candid or unexpected<br>🧠 Still: Thoughtful and deep</p>
+    <p>Use it to break the ice or start a team chat!</p>
+  </div>
+</div>
+  <div class="container">
+    <h2>Choose Your Vibe</h2>
+    <div class="button-group">
+      <button data-type="sweet">🍭 Sweet</button>
+      <button data-type="spill">🍵 Spill</button>
+      <button data-type="still">🧠 Still</button>
+    </div>
+    <p id="questionOutput"></p>
+    <button id="resetBtn" class="reset-button">🔄 Reset</button>
+  </div>
 
-<script>
-  const questions = {
-    sweet: [
-      "What’s the weirdest compliment you’ve ever received?",
-      "If you were a dessert, what would you be and why?",
-      "What’s your comfort movie or snack?"
-    ],
-    source: [
-      "What got you into coding?",
-      "What’s one keyboard shortcut you can’t live without?",
-      "If your code had a theme song, what would it be?"
-    ],
-    serious: [
-      "What’s one thing you wish more people knew about you?",
-      "What’s a goal you’re working toward this year?",
-      "What does a good day at work look like to you?"
-    ]
-  };
+  <script src="script.js"></script>
+</body>
+</html>
 
-  function getQuestion(type) {
-    const qSet = questions[type];
-    const randomIndex = Math.floor(Math.random() * qSet.length);
-    document.getElementById('questionOutput').innerText = qSet[randomIndex];
-  }
-</script>
+
