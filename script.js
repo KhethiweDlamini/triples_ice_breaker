@@ -11,7 +11,7 @@ const questions = {
   ],
   spill: [
     "What’s something you always pretend to understand but don’t?",
-    "Have you ever rage-quit something dramatic? Spill.",
+    "Have you ever rage-quit something for a petty reason? Spill.",
     "What’s your pet peeve that instantly breaks your vibe?",
     "What’s a hill you’ll die on, no matter how petty?",
     "What’s your most unhinged tab open right now?",
