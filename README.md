@@ -1,6 +1,6 @@
 # 🎮 Triple S – Choose Your Vibe!
 
-Welcome to **Triple S** — a lighthearted icebreaker game that helps teams and friends connect.
+**Triple S** is a lighthearted icebreaker game that helps teams and friends connect.
 
 Pick a vibe — 🍭 Sweet, 🫖 Spill, or 🧠 Still — and get a fun or thoughtful question to spark conversation!
 
