@@ -7,32 +7,35 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="instructions-wrapper">
-  <button id="infoBtn">❔</button>
-  <div id="instructionsBox" class="hidden">
-    <h4>How to Play</h4>
-    <p>Choose a vibe and get a random question.</p>
-    <p>🍭 Sweet: Light and fun<br>🫖 Spill: Candid or unexpected<br>🧠 Still: Thoughtful and deep</p>
-    <p>Use it to break the ice or start a team chat!</p>
-  </div>
-</div>
-  <div class="container">
-    <h1 class="game-title">Triple S</h1>
-    <h2>Choose Your Vibe</h2>
-    <div class="button-group">
-      <button data-type="sweet">🍭 Sweet</button>
-      <button data-type="spill">🍵 Spill</button>
-      <button data-type="still">🧠 Still</button>
+  <div class="main">
+    <div class="instructions-wrapper">
+      <button id="infoBtn">❔</button>
+      <div id="instructionsBox" class="hidden">
+        <h4>How to Play</h4>
+        <p>Choose a vibe and get a random question.</p>
+        <p>🍭 Sweet: Light and fun<br>🫖 Spill: Candid or unexpected<br>🧠 Still: Thoughtful and deep</p>
+        <p>Use it to break the ice or start a team chat!</p>
+      </div>
     </div>
-    <p id="questionOutput"></p>
-    <button id="resetBtn" class="reset-button">🔄 Reset</button>
+
+    <div class="container">
+      <h1 class="game-title">Triple S</h1>
+      <h2>Choose Your Vibe</h2>
+      <div class="button-group">
+        <button data-type="sweet">🍭 Sweet</button>
+        <button data-type="spill">🍵 Spill</button>
+        <button data-type="still">🧠 Still</button>
+      </div>
+      <p id="questionOutput"></p>
+      <button id="resetBtn" class="reset-button">🔄 Reset</button>
+    </div>
   </div>
+
   <footer>
-    <p>Open sourced and hosted on <a href="https://github.com/KhethiweDlamini/work_ice_breaker_game" target="_blank">GitHub</a></p>
+    <p>Open sourced and hosted on 
+      <a href="https://github.com/KhethiweDlamini/work_ice_breaker_game" target="_blank">GitHub</a>
+    </p>
   </footer>
 
   <script src="script.js"></script>
 </body>
-</html>
-
-
