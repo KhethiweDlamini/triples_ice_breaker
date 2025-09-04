@@ -206,6 +206,7 @@ button:hover {
   .container {
     padding: 6vw 4vw;
     border-radius: 14px;
+    width: 90%;
   }
 
   .game-title {
