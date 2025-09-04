@@ -125,7 +125,7 @@ button:hover {
 .instructions-wrapper {
   position: fixed;
   top: 20px;
-  right: 550px;
+  right: 20px;
   z-index: 1000;
 }
 
@@ -194,6 +194,11 @@ button:hover {
   .button-group {
     flex-direction: column;
     gap: 10px;
+  }
+
+  #questionOutput {
+    font-size: 20px;
+    width: 90%;
   }
 }
 
