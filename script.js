@@ -7,7 +7,7 @@ const questions = {
     "Which animal do you think matches your vibe today?",
     "What’s your 'silly little joy' you’d defend with your life?",
     "Who’s a fictional character you lowkey relate to?",
-    "What's your comfort food and who would you share it with?"
+    "What's your comfort food and who would you share it with?",
   ],
   spill: [
     "What’s something you always pretend to understand but don’t?",
@@ -17,7 +17,7 @@ const questions = {
     "What’s your most unhinged tab open right now?",
     "If your phone gallery got leaked, what’s the funniest pic people would find?",
     "What’s your go-to chaos move in group projects?",
-    "What's something your coworkers would be shocked to learn about you?"
+    "What's something your coworkers would be shocked to learn about you?",
   ],
   still: [
     "What’s something that’s been on your mind lately (in a good way)?",
@@ -27,8 +27,8 @@ const questions = {
     "Who do you become when you’re really relaxed?",
     "What’s one belief or value you’re holding onto tightly right now?",
     "If your current mood was a color, what would it be and why?",
-    "When do you feel most like yourself?"
-  ]
+    "When do you feel most like yourself?",
+  ],
 };
 
 function getRandomQuestion(type) {
@@ -37,20 +37,20 @@ function getRandomQuestion(type) {
   return qSet[randomIndex];
 }
 
-document.querySelectorAll('button[data-type]').forEach(button => {
-  button.addEventListener('click', () => {
-    const type = button.getAttribute('data-type');
+document.querySelectorAll("button[data-type]").forEach((button) => {
+  button.addEventListener("click", () => {
+    const type = button.getAttribute("data-type");
     const question = getRandomQuestion(type);
-    document.getElementById('questionOutput').innerText = question;
+    document.getElementById("questionOutput").innerText = question;
   });
 });
 
-document.getElementById('infoBtn').addEventListener('click', () => {
-  const box = document.getElementById('instructionsBox');
-  box.classList.toggle('hidden');
+document.getElementById("infoBtn").addEventListener("click", () => {
+  const box = document.getElementById("instructionsBox");
+  box.classList.toggle("hidden");
 });
 
-document.getElementById('resetBtn').addEventListener('click', () => {
-  const output = document.getElementById('questionOutput');
-  output.innerText = '';
+document.getElementById("resetBtn").addEventListener("click", () => {
+  const output = document.getElementById("questionOutput");
+  output.innerText = "";
 });
